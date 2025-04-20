@@ -1,0 +1,26 @@
+h1{color:blue }
+body {
+  background-color: powderblue;
+}
+
+
+p{font-family:verdana;}
+
+.bottom-text {
+  text-align: right;
+  padding-right: 20px; /* مسافة من جهة اليمين */
+  font-size: 20px;
+  color: #333;
+}
+
+
+
+
+left-center-image {
+  position: absolute;
+  left: 20px;          /* مسافة من اليسار */
+  top: 50%;            /* ينزلها لنص الصفحة */
+  transform: translateY(-50%); /* يضبط تمركزها بالضبط في النص */
+  width: 150px;        /* حجم الصورة */
+  height: auto;
+}
